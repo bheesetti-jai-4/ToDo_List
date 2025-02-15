@@ -1,0 +1,20 @@
+.todo-container {
+    width: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .todo-container {
+      width: 90%; /* Make it wider on small screens */
+    }
+  
+    .btn {
+      font-size: 14px; /* Smaller button text */
+      padding: 8px 12px;
+    }
+  
+    input {
+      font-size: 16px;
+      padding: 10px;
+    }
+  }
+  
