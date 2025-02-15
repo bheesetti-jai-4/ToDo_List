@@ -53,7 +53,7 @@
 
 
 import { useState } from "react";
-import Todochild from "./todochild";
+import Todochild from "./Todochild";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Todo.css"; // Import custom styles
 
@@ -94,7 +94,11 @@ function Todo() {
           </button>
         </form>
         <div className="mt-3">
+
+
           <Todochild todoarray={todolist} handleDelete={handleDelete} />
+
+          
         </div>
       </div>
     </div>
